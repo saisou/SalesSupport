@@ -1,0 +1,49 @@
+PODS:
+  - AWSCognito (2.6.19):
+    - AWSCore (= 2.6.19)
+  - AWSCore (2.6.19)
+  - AWSS3 (2.6.19):
+    - AWSCore (= 2.6.19)
+  - HandyJSON (4.1.1)
+  - KeenClientTD (3.2.32)
+  - Masonry (1.1.0)
+  - ReachabilitySwift (4.1.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.1.0)
+  - TreasureData-iOS-SDK (0.1.24):
+    - KeenClientTD (= 3.2.32)
+
+DEPENDENCIES:
+  - AWSCognito
+  - AWSS3
+  - HandyJSON (~> 4.1.1)
+  - Masonry
+  - ReachabilitySwift
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+  - SwiftyJSON
+  - TreasureData-iOS-SDK (= 0.1.24)
+
+EXTERNAL SOURCES:
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+CHECKOUT OPTIONS:
+  SVProgressHUD:
+    :commit: 7f676d51905ede045ca5dcaf82d4ba0d9f96addf
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+SPEC CHECKSUMS:
+  AWSCognito: d523eaaccfec455806271c229d36a65afd3b2f26
+  AWSCore: 3019940607dee2a467e0a8de638649d9fcb9afc3
+  AWSS3: 003ab3d5b42cd512d812d9227cd927d0345b739b
+  HandyJSON: 3a3de917c4118767ffe41c29b5acba23409649f4
+  KeenClientTD: 66da83b01742f4983925391e70b5beecb4096bd1
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  TreasureData-iOS-SDK: e8b6d8cde3807c4ad600eb132227fb4eb20762bd
+
+PODFILE CHECKSUM: f9373588791949ec019b68d0afd9c3911675f132
+
+COCOAPODS: 1.4.0

@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SalesSupport' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git'
+  use_frameworks!
+  pod 'TreasureData-iOS-SDK','=0.1.24'
+  pod 'ReachabilitySwift'
+  pod 'Masonry'
+  pod 'AWSS3'
+  pod 'AWSCognito'
+  pod 'SwiftyJSON'
+  # pod 'HandyJSON', '=4.0.0-beta.1'
+  pod 'HandyJSON', '~> 4.1.1'
+  # Pods for SalesSupport
+
+  target 'SalesSupportTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SalesSupportUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
